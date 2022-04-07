@@ -16,7 +16,7 @@ steps:
       pomFilePath: ${OCI_PRIMARY_SOURCE_DIR}/pom.xml # required (Supports parameter substitution)
       maxPermissibleCvssV2Score: 10.0                # optional (defaults to 0.0)
       maxPermissibleCvssV3Score: 10.0                # optional (defaults to 0.0)
-    knowledgeBaseId: ocid1.admknowledgebase.oc1.iad.amaaaaaa4725fbqawguqkxo62d65mmcmg7smlbod5dngph5oeavcnkxutdwa # required (Supports parameter substitution)
+    knowledgeBaseId: ocid1.admknowledgebase.oc1.iad.amaaaaaa4725fbqawhps377rxplobl7yc3kbpdrtdanlpo44ldob5722hjza # required (Supports parameter substitution)
     vulnerabilityAuditCompartmentId: ocid1.compartment.oc1..aaaaaaaamimegz6vbad3of5blhrgezxn35d5hrkqyd65ucz47pizitb4elja # optional (Supports parameter substitution) defaults to KB compartmentId
     vulnerabilityAuditName: bhaveshReport.  # optional (Supports parameter substitution), name will be auto generated.
   - type: Command
