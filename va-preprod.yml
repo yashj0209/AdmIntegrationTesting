@@ -13,8 +13,6 @@ steps:
     configuration:                   # required
       buildType: maven               # required
       pomFilePath: ${OCI_PRIMARY_SOURCE_DIR}/pom.xml # required (Supports parameter substitution)
-      maxPermissibleCvssV2Score: 6.0                # optional (defaults to 0.0)
-      maxPermissibleCvssV3Score: 7.0                # optional (defaults to 0.0)
     knowledgeBaseId: ocid1.admknowledgebase.oc1.iad.amaaaaaa4725fbqawhps377rxplobl7yc3kbpdrtdanlpo44ldob5722hjza # required (Supports parameter substitution)
     vulnerabilityAuditName: YashTestReport.  # optional (Supports parameter substitution), name will be auto generated.
   - type: Command
